@@ -1,25 +1,22 @@
-//
-//  ViewController.swift
-//  BlurDemo
-//
-//  Created by Filip Radelic on 20.06.2016..
-//  Copyright © 2016. Filip Radelic. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var effectView: UIVisualEffectView!
+    
+    var animator: UIViewPropertyAnimator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        animator = UIViewPropertyAnimator(duration: 1, curve: .linear) {
+            self.effectView.effect = nil
+        }
+        animator?.pauseAnimation()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        animator?.fractionComplete = CGFloat(sender.value)
     }
-
 
 }
-

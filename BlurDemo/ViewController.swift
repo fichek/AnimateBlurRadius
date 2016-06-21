@@ -12,7 +12,6 @@ class ViewController: UIViewController {
         animator = UIViewPropertyAnimator(duration: 1, curve: .linear) {
             self.effectView.effect = nil
         }
-        animator?.pauseAnimation()
     }
 
     @IBAction func sliderValueChanged(_ sender: UISlider) {

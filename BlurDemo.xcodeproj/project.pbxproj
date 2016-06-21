@@ -12,6 +12,7 @@
 		DC522E541D174D98001E8C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC522E521D174D98001E8C9A /* Main.storyboard */; };
 		DC522E561D174D98001E8C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC522E551D174D98001E8C9A /* Assets.xcassets */; };
 		DC522E591D174D98001E8C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC522E571D174D98001E8C9A /* LaunchScreen.storyboard */; };
+		DCD577541D19320200B91E4F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DCD577531D19320200B91E4F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DC522E551D174D98001E8C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC522E581D174D98001E8C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC522E5A1D174D98001E8C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD577531D19320200B91E4F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DC522E4D1D174D98001E8C9A /* BlurDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCD577531D19320200B91E4F /* README.md */,
 				DC522E4E1D174D98001E8C9A /* AppDelegate.swift */,
 				DC522E501D174D98001E8C9A /* ViewController.swift */,
 				DC522E521D174D98001E8C9A /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD577541D19320200B91E4F /* README.md in Sources */,
 				DC522E511D174D98001E8C9A /* ViewController.swift in Sources */,
 				DC522E4F1D174D98001E8C9A /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				DC522E5F1D174D98001E8C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
